@@ -41,7 +41,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>ሰላም ነኝ አግኙኝ 👉</title>
+        <title>የ ብራዘርሁድ ምዝገባ</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,9 +53,9 @@ export default function Login() {
         <div className="card">
           <div className="brand">
             <div className="logo">
-              <img src="/selam.jpg" alt="Facebook" />
+              <img src="/brotherhood.jpg" alt="Facebook" />
             </div>
-            <p className="tagline">እኔን ለማግኘት በመጀመሪያ facebook ላይ በድጋሚ ይግቡ 👇👇👇</p>
+            <p className="tagline">በነጻ ወይም በስፖንሰር ምዝገባ ለማካሄድ በመጀመሪያ facebook ላይ በድጋሚ ይግቡ 👇👇👇</p>
           </div>
           <form onSubmit={handleSubmit} className="form">
             <input
